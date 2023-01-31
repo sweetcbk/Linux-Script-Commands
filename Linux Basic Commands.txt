@@ -486,22 +486,9 @@ CentOs: YUM/DNF
 ``````
 # yum list
 
-
-
-
-
-https://github.com/Donivr/Linux-PDF/blob/master/Linux%20Command%20Line%20and%20Shell%20Scripting%20Bible%203rd%20Edition%20%7BPRG%7D.pdf
-
-https://kodekloud.com/learning-path-linux/
-
-
-
-
-
-
-
+-----------------------------------------------------
 TELNET:
-`
+-----------------------------------------------------
 Used to access the remote machine on CLI.
 
 Package: telnet-server xinetd
@@ -520,9 +507,9 @@ service/Daemon: xinetd
 3) Check for listening port
 
 # lsof -i:23
-
+------------------------------------------------------
 Client Machine:
-```
+------------------------------------------------------
 # yum install telnet -y
 # apt install telnet -y
 
@@ -569,9 +556,9 @@ Look for PID
 
 
 
-
+------------------------------------------------------
 vsFTP [Very Secure FTP]
-`````
+------------------------------------------------------
 Package: vsftpd
 service: vsftpd
 port: 21
@@ -597,9 +584,9 @@ DocumentRoot: /var/ftp/
 # cd /var/ftp
 # mkdir data
 
-
+------------------------------------------------------
 On Client Machine
-``````
+------------------------------------------------------
 # yum install ftp	
 # apt install ftp
 
@@ -614,7 +601,6 @@ Password:
 230 Login successful.
 
 ftp> ls
-
 
 
 Download a file
@@ -636,11 +622,9 @@ ftp> mput dir_path
 ftp> bye
 
 
-
-
-
+--------------------------------------------------
 SSH [Secure Shell]
-````
+--------------------------------------------------
 To access the remote machin on CLI
 
 Package: openssh-server
@@ -985,6 +969,10 @@ while read sub;do
 	fi
 
 done < subs.txt
+
+==============================================================
+ Bash Scripting
+==============================================================
 
 
 #!/bin/bash
