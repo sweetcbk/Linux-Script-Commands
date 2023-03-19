@@ -85,11 +85,6 @@ Super User  : /root
 
 # : Loggedin as super user
 $ : LoggedIn as regular user
--------------------------------------------------
-
-https://tryhackme.com/room/linuxfundamentalspart1
-https://tryhackme.com/room/linuxfundamentalspart2
-https://tryhackme.com/room/linuxfundamentalspart3
 
 --------------------------------------------------
 Basic Users & group management:
